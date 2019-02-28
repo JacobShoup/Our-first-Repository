@@ -61,3 +61,14 @@ name_and_age('Jacob Shoup', 18)
 name_and_age('Dave', 19)
 name_and_age('Steve', 69)
 
+# 4.14.5: Default Parameter Values
+# Jacob Shoup
+# 2.19.19
+
+def print_two_numbers(x, y = 20):
+    print('First number: ',  str(x))
+    print('Second_number: ' + str(y))
+
+print_two_numbers(5, 67)
+print_two_numbers(23)
+
