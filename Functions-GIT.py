@@ -94,3 +94,17 @@ def print_multiple_times(string, times):
         print(string)
 
 print_multiple_times('Hello Computer scientist', 4)
+
+
+# 4.16.3: Enter a number
+# Jacob Shoup
+# 2.20.19
+
+
+
+try:
+    my_number = int(input('Enter and integer: '))
+    print('Your number: ' + str(my_number))
+
+except ValueError:
+    print('That was not an integer you degenerate')
