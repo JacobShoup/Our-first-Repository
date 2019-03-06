@@ -149,3 +149,21 @@ try:
 except ValueError:
     print('You need to enter a float moron')
 >>>>>>> Temperature-Converter
+
+
+# 4.16.7: Enter a positive number
+# Jacob Shoup
+# 2.21.19
+
+def retrieve_positive_number():
+    while True:
+        try:
+            number = int(input('Enter a positive number: '))
+            if number > 0:
+                return number
+            else:
+                print('Enter a positive number')
+        except ValueError:
+            print('That was not a number you failure to society')
+
+retrieve_positive_number()
