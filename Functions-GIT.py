@@ -101,6 +101,12 @@ print_multiple_times('Hello Computer scientist', 4)
 # 2.20.19
 
 
+git
+# 4.16.6: Temperature Converter
+# Mr. Lange
+# 2.20.19
+
+>>>>>>> Temperature-Converter
 try:
     my_number = int(input('Enter and integer: '))
     print('Your number: ' + str(my_number))
@@ -109,6 +115,7 @@ except ValueError:
     print('That was not an integer you degenerate')
 
 
+<<<<<<< HEAD
 # 4.16.4 Enter Name And Age
 # Jacob Shoup
 # Same day
@@ -125,3 +132,20 @@ except ValueError:
 
 print('\n''Name:', name)
 print('Age: ', age)
+=======
+def celcius_to_fahrenheit(celcius):
+    return celcius * 1.8 + 32
+
+def fahrenheit_to_celcius(fahrenheit):
+    return (fahrenheit - 32) / 1.8
+
+try:
+    c = float(input('Enter a temp in C: '))
+    print('In F:', round(celcius_to_fahrenheit(c), 2))
+
+    f = float(input('Enter a temp in F: '))
+    print('In C:', round(fahrenheit_to_celcius(f), 2))
+
+except ValueError:
+    print('You need to enter a float moron')
+>>>>>>> Temperature-Converter
